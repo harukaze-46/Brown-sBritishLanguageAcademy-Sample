@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Brown's British  Language Academy </title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="image/header-logo.svg">
+    </head>
+    <body>
+
+        <header>
+            <div class="inner-wrapper">
+                <div class="header-wrapper">
+                    <div class="header-left">
+                        <a href="index.html">
+                            <img src="image/header-logo.svg" alt="ヘッダーロゴ" width="80px" height="auto">
+                        </a>
+                    </div>
+        
+                    <nav class="header-nav" id="js-nav">
+                        <ul class="header-menu">
+                            <li><a href="#top">トップ</a></li>
+                            <li><a href="#blog">ブログ</a></li>
+                            <li><a href="#cose">コース</a></li>
+                            <li><a href="#contact">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+        
+                    <div class="hamburger-btn" id="js-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+        
+                    <div class="nav-overlay" id="js-overlay"></div>
+        
+                    <div class="header-right">
+                        <p><a href="#">無料体験レッスンを申し込む</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="slider">
+            <div class="slider-track">
+                <img src="image/top-fv-1.jpg" alt="#" width="750px" height="auto">
+                <img src="image/top-fv-2.jpg" alt="#" width="750px" height="auto">
+                <img src="image/top-fv-3.jpg" alt="#" width="750px" height="auto">
+                <img src="image/top-fv-4.jpg" alt="#" width="750px" height="auto">
+                <img src="image/top-fv-5.jpg" alt="#" width="750px" height="auto">
+                <img src="image/top-fv-6.jpg" alt="#" width="750px" height="auto">
+            </div>
+
+            <div class="fv-content">
+                <img class="content-logo" src="image/fv-logo.svg" width="550px" height="auto" alt="ファーストビューのロゴ">
+                <img class="content-letter" src="image/fv-letter.svg" width="700px" height="auto" alt="ファーストビューの文字">
+            </div>
+        </div>
+
+        <main>
+
+            <section class="about">
+                <div class="inner-wrapper">
+                    <div class="title-wrapper">
+                        <img src="image/about-img.png" width="80px" height="auto" alt="アバウトロゴ">
+                        <h1 class="line-title"><span>A</span>bout  Us</h1>
+                        <p>私たちについて</p>
+                    </div>
+
+
+                    <div class="about-wrapper">
+                        <div class="about-left">
+                            <p class="about-text">イギリスから来たウィリアム・ブラウンです。<br>
+                                ロンドン近くのウィンザー出身です。ロンドン大学で教育学を学んだ後、<br>
+                                日本に来て10年以上になります。日本の文化や言葉に触れ、多くの人と出会ってきました。<br>
+                                生徒が自信を持って英語を話せるようサポートすることが大好きで、<br>
+                                楽しく学べる環境づくりを目指しています。</p>
+                                <div class="about-box">
+                                    <ul class="list-1">
+                                        <li>＃ロンドン大学 教育学</li>
+                                        <li>＃日本在住10年以上</li>
+                                    </ul>
+                                    <ul>
+                                        <li>＃日本の大学院で言語学専攻</li>
+                                        <li>＃生徒が自信を持って英語を話せるようサポート</li>
+                                    </ul>
+                                </div>
+                        </div>
+
+                        <div class="about-img">
+                            <img src="image/abou-img.jpg" alt="講師の写真" width="400px" height="auto">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="cose" id="cose">
+                <div class="inner-wrapper">
+
+                    <div class="title-wrapper">
+                        <img src="image/cose-img.png" width="80px" height="auto" alt="アバウトロゴ">
+                        <h1 class="line-title"><span>C</span>ourses</h1>
+                        <p>コース紹介</p>
+                    </div>
+
+
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+                    <div class="cose-wrapper">
+                        <div id="slider" class="splide" >
+
+                            <div class="splide__track">
+                                <div class="splide__list">
+
+
+                            <div class="splide__slide cose-content box">
+                                <h2>基礎英会話<br>コース</h2>
+                                <p class="cose-text1">初心者向けの基本的な<br>英会話スキルを習得</p>
+                                <p class="cose-text2"><span class="span-1">週1回60分</span><span class="span-2"> 月額</span>10,000<span class="span-2"> 円</span></p>
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+
+                                </div>
+            
+                            </div>
+
+
+                            <div class="splide__slide cose-content-2 box">
+                                <h2>ビジネス英会話<br>コース</h2>
+                                <p class="cose-text1">ビジネスシーンで必要な<br>
+                                    英会話スキルを身につける</p>
+
+                                <p class="cose-text2"><span class="span-2"> 月額</span>15,000<span class="span-2"> 円</span></p>
+  
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+                                </div>
+            
+                            </div>
+
+
+
+
+                            <div class="splide__slide cose-content box">
+                                <h2>日常英会話<br>コース</h2>
+                                <p class="cose-text1">日常生活で役立つ<br>
+                                    英会話フレーズや表現を学ぶ。<br>外国人とのコミュニケーションを<br>
+                                    スムーズに。</p>
+
+                                <p class="cose-text2"><span class="span-2"> 月額</span>8,000<span class="span-2"> 円</span></p>
+  
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+                                </div>
+            
+                            </div>
+
+
+
+                            <div class="splide__slide cose-content-2 box">
+                                <h2>TOEIC対策<br>コース</h2>
+                                <p class="cose-text1">TOEICテストのリーディングと<br>
+                                    リスニングに焦点を当てたコース。<br>
+                                    実践問題演習と効果的な対策を提供。</p>
+
+                                <p class="cose-text2"><span class="span-2"> 月額</span>15,000<span class="span-2"> 円</span></p>
+  
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+                                </div>
+            
+                            </div>
+
+
+                            <div class="splide__slide cose-content-3 box">
+                                <h2>英文法強化<br>コース</h2>
+                                <p class="cose-text1">英文法の基礎から応用までをカバー。<br>文法のルールを理解し、正確な英文を<br>作成する能力を向上。</p>
+
+                                <p class="cose-text2"><span class="span-2"> 月額</span>9,000<span class="span-2"> 円</span></p>
+  
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+                                </div>
+            
+                            </div>
+
+                            <div class="splide__slide cose-content-3 box">
+                                <h2>フリートーク<br>コース</h2>
+                                <p class="cose-text1">フリートーク形式で自由な会話を<br>楽しむ。日常会話から興味深い<br>トピックまでカバー。</p>
+
+                                <p class="cose-text2"><span class="span-2"> 月額</span>7,000<span class="span-2"> 円</span></p>
+  
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+                                </div>
+            
+                            </div>
+
+
+                            <div class="splide__slide cose-content-3 box">
+                                <h2>文化・歴史英語<br>コース</h2>
+                                <p class="cose-text1">イギリスやアメリカの文化や歴史に<br>関する英語を学ぶ。興味深いトピックに触れながら英語力を向上。</p>
+
+                                <p class="cose-text2"><span class="span-2"> 月額</span>11,000<span class="span-2"> 円</span></p>
+  
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+                                </div>
+            
+                            </div>
+
+                            <div class="splide__slide cose-content box">
+                                <h2>子供向け英会話<br>コース</h2>
+                                <p class="cose-text1">幼児から小学生向けの楽しい<br>英会話レッスン。ゲームや歌を<br>取り入れながら基本的な表現を学ぶ。</p>
+                                <p class="cose-text2"><span class="span-2"> 月額</span>10,000<span class="span-2"> 円</span></p>
+
+                                <div class="cose-btn">
+                                    <a href="#" class="btn-arrow">
+                                        <span class="icon-circle">
+                                            <span class="arrow-mark">→</span>
+                                        </span>
+                                    </a>
+
+                                </div>
+            
+                            </div>
+
+                        </div>  
+                    </div>
+
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+            </section>
+
+
+            <section class="blog" id="blog">
+                <div class="inner-wrapper">
+                    <div class="title-wrapper">
+                        <img src="image/blog-img.png" width="80px" height="auto" alt="アバウトロゴ">
+                        <h1 class="line-title"><span>B</span>log</h1>
+                        <p>人気記事</p>
+                    </div>
+
+
+                    <div class="blog-wrapper">
+                        <div class="blog-container">
+
+                            <div class="blog-box">
+                                <div class="blog-content">
+                                    <img src="image/blog-1.jpg" alt="ブログの写真" width="300px" height="auto">
+                                    <h3 class="blog-title">英語学習の秘訣 <br>
+                                        日常生活で使える5つの方法</h3>
+                                        <p>日常生活に英語を取り入れる方法を紹介。<br> 効果的な学習のポイントを探る。
+                                            </p>
+                                </div>
+                      
+                            </div>
+
+
+                            <div class="blog-box">
+                                <div class="blog-content">
+                                    <img src="image/blog-2.jpg" alt="ブログの写真" width="300px" height="auto">
+                                    <h3 class="blog-title">ビジネス英会話の鍵<br>
+                                        効果的なプレゼンテーション技術</h3>
+                                        <p>ビジネスシーンでのプレゼンテーションに<br>
+                                            役立つ英語フレーズと技術を解説。
+                                            </p>
+                                </div>
+
+                            </div>
+
+                            <div class="blog-box">
+                                <div class="blog-content">
+                                    <img src="image/blog-3.jpg" alt="ブログの写真" width="300px" height="auto">
+                                    <h3 class="blog-title">留学準備完全ガイド<br> 必携の文法書と参考書リスト</h3>
+                                        <p>ビジネスシーンでのプレゼンテーションに<br> 役立つ英語フレーズと技術を解説。
+                                            </p>
+                                </div>
+                            </div>
+
+                    
+
+                        </div>
+                    </div>
+
+                    <section class="blog-n-wrapper">
+                        <div class="blog-n-title">
+                            <h1>ネイティブ・イングリッシュ</h1>
+                            <p>イギリス英語の<span>“リアル”</span>を楽しむための記事を集めました。<br>
+                                スラング、食文化、地名の由来、季節の行事、アメリカ英語との違いまで、<br>
+                                ネイティブの世界にぐっと近づける内容が満載です。</p>
+                        </div>
+
+                        <div class="blog-n-container">
+                            <div class="blog-n-content">
+
+                                <div class="blog-n-box">
+                                    <div class="blog-n-box-content">
+                                        <img src="image/blog-n-1.jpg" alt="ネイティブ・イングリッシュの写真"
+                                        width="350px" height="auto">
+                                        <h3 class="n-title">イギリス英語とアメリカ英語の違い<br>
+                                            ネイティブが使う異なる表現の例</h3>
+                                            <p class="n-text">
+                                                イギリス英語とアメリカ英語の違いを理解しよう。例えば、
+                                                lift（エレベーター）はイギリス英語で、
+elevator（エレベーター）はアメリカ英語です。
+biscuit（ビスケット）はイギリス英語で、
+cookie（クッキー）はアメリカ英語です。
+イギリスとアメリカの英語の違いを知って、
+両方の文化に触れよう！
+                                            </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="blog-n-box">
+                                    <div class="blog-n-box-content">
+                                        <img src="image/blog-n-2.jpg" alt="ネイティブ・イングリッシュの写真"
+                                        width="350px" height="auto">
+                                        <h3 class="n-title">英国の名物フードとその英語名<br>
+                                            ネイティブならではの食文化紹介</h3>
+                                            <p class="n-text">
+                                                イギリスの伝統的な料理とその英語名を紹介。例えば、
+fish and chips（フィッシュ＆チップス）、
+bangers and mash（ソーセージとマッシュポテト）、
+cuppa（紅茶）などの名物料理を通じて、
+ネイティブな食文化を理解しよう！
+                                                  </p>
+                                    </div>
+                                </div>
+
+                                <div class="blog-n-box">
+                                    <div class="blog-n-box-content">
+                                        <img src="image/blog-n-3.jpg" alt="ネイティブ・イングリッシュの写真"
+                                        width="350px" height="auto">
+                                        <h3 class="n-title">ロンドンの地名とその意味<br>
+                                            ネイティブが知っているロンドンの<br>
+                                            興味深い名前の由来</h3>
+                                            <p class="n-text">
+                                                ロンドンの地名の由来と意味を解説。例えば、
+Piccadilly Circus（ピカデリーサーカス）は
+17世紀に有名なカラフルな衣料品を販売していた
+ピカデリー地区の円形交差点で、"circus""はラテン語で
+「円」を意味します。その他、
+Trafalgar Square（トラファルガー広場）、
+Covent Garden（コヴェント・ガーデン）などの
+名前の由来を紐解こう！
+
+                                                  </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+
+                        <div class="blog-btn">
+                            <a href="#">記事一覧へ</a>
+                        </div>
+
+                </div>
+            </section>
+
+
+            <section class="special-Offers">
+                <div class="special-Offers-content">
+                    <img src="image/koukoku-1.svg" alt="特典のバナー" height="auto" width="1080px"> 
+                </div>
+            </section>
+
+
+
+            <section class="testimonials">
+                <div class="inner-wrapper">
+                    <div class="title-wrapper">
+                        <img src="image/te-img.png" width="80px" height="auto" alt="アバウトロゴ">
+                        <h1 class="line-title"><span>T</span>estimonials</h1>
+                        <p>生徒の声</p>
+                    </div>
+
+                    <section class="student-Reviews">
+                        <div class="testimonials-sub-title">
+                            <h1 class="t-title">Student Reviews</h1>
+                            <p>レビューと体験談 </p>
+                        </div>
+
+                        <div class="student-wrapper">
+                            <div class="student-continer">
+                                <div class="student-img">
+                                    <img src="image/student-img.jpg" width="480px" height="auto" alt="生徒の写真">
+                                </div>
+                                <div class="studetn-text">
+                                    <ul>
+                                        <li><span class="dli-check-circle"><span></span></span>佐藤太郎　初心者でも楽しく学べた</li>
+                                        <li><span class="dli-check-circle"><span></span></span>田中花子　TOEICスコアが大幅UP</li>
+                                        <li><span class="dli-check-circle"><span></span></span>山田太郎　ビジネス英語が実務で役立つ</li>
+                                        <li><span class="dli-check-circle"><span></span></span>鈴木花子　子供が毎回楽しみにしている</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="student-btn">
+                            <a href="#">もっと見る</a>
+                        </div>
+                    </section>
+
+                    <section class="video-Testimonials"id="video-carousel">
+                        <div class="testimonials-sub-title">
+                            <h1 class="t-title">Video Testimonials</h1>
+                            <p>ビデオテスティモニアル  </p>
+                        </div>
+                        <div class="splide" id="video-splide">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+
+                                    <li class="splide__slide video-slide">
+                                        <div class="video-container">
+                                            <video src="video/video-1.mp4"controls 
+                                            preload="metadata" 
+                                            width="100%" ></video>
+                                        </div>
+                                        <div class="video-info">
+                                            <p>英会話が楽しくなりました！</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="splide__slide video-slide">
+                                        <div class="video-container">
+                                            <video src="video/video-2.mp4"controls 
+                                            preload="metadata" 
+                                            width="100%" ></video>
+                                        </div>
+                                        <div class="video-info">
+                                            <p>TOEICのスコアがアップ！</p>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="splide__slide video-slide">
+                                        <div class="video-container">
+                                            <video src="video/video-3 11.32.03.mp4"controls 
+                                            preload="metadata" 
+                                            width="100%" ></video>
+                                        </div>
+                                        <div class="video-info">
+                                            <p>ビジネス英会話が役立ちました！</p>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="splide__slide video-slide">
+                                        <div class="video-container">
+                                            <video src="video/video-4.mp4"controls 
+                                            preload="metadata" 
+                                            width="100%" ></video>
+                                        </div>
+                                        <div class="video-info">
+                                            <p>子供も喜んで通っています！</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                </section>
+
+
+
+                <section class="faq">
+                    <div class="inner-wrapper">
+                        <div class="title-wrapper">
+                            <img src="image/faq-img.png" width="80px" height="auto" alt="アバウトロゴ">
+                            <h1 class="line-title"><span>F</span>AQ</h1>
+                            <p>よくあるご質問</p>
+                        </div>
+
+                        <div class="faq-container">
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span> コースはどれくらいの期間ですか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span>コースの期間は個々のレベルやコース内容によって異なりますが、通常は月単位での受講となります。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span>レッスンの頻度はどのくらいですか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span> レッスンの頻度は受講コースによって異なりますが、一般的には週1回から週3回の間で行われます。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span>レッスンはオンラインでも受けられますか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span> はい、当塾ではオンラインレッスンも提供しています。オンラインでの受講も可能ですので、ご自宅からでも英会話を学ぶことができます。
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span>レッスン料金はどのようになっていますか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span> レッスン料金はコースや受講回数によって異なります。詳細はお問い合わせフォームからお気軽にお問い合わせください。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span>講師はどのような資格を持っていますか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span> 当塾の講師陣はネイティブスピーカーであり、専門的な教育や英語教育の経験を持つプロの講師です。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span>レッスンのキャンセルポリシーはありますか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span>レッスンのキャンセルポリシーについては、事前にご案内しております。詳細はご入会時にお知らせいたしますので、ご安心ください。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <button class="faq-q">
+                                    <span class="faq-q-content">         
+                                        <span class="faq-icon-q">Q</span>レッスンの教材は提供されますか？</span>
+                                    <span class="faq-icon"></span>
+                                </button>
+                                <div class="faq-a">
+                                    <div class="faq-a-inner">
+                                        <span class="faq-a-icon">A</span>はい、レッスンで使用する教材は全て当塾で提供されます。生徒の皆さんが必要なものは全て揃えていますので、特別な準備は必要ありません。
+                                    </div>
+                                </div>
+                            </div>
+           
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <section class="contact">
+                    <div class="inner-wrapper">
+                        <div class="title-wrapper">
+                            <img src="image/contact-img.png" width="40px" height="auto" alt="アバウトロゴ">
+                            <h1 class="line-title"><span>C</span>ontact Us</h1>
+                            <p>お問い合わせ</p>
+                        </div>
+
+                        <div class="contact-container">
+                            <form action="#" method="post">
+
+                                <div class="form-group">
+                                    <label for="name">氏名<span>※必須</span></label>
+                                    <input type="text" id="name" name="name" placeholder="例：　佐藤太郎" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">メールアドレス<span>※必須</span></label>
+                                    <input type="email" id="email" name="email" placeholder="例：　bbla-1990@mail.con " required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="tel">電話番号</label>
+                                    <input type="tel" id="tel" name="tel" placeholder="例：　090-0000-0000" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">メッセージ<span>※必須</span></label>
+                                    <textarea id="message" name="message" rows="5" placeholder="ご質問やご相談内容をご記入ください。" required></textarea>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="contact-submit">
+                            <button type="submit" class="btn-submit">送信</button>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="footer">
+                    <div class="footer-container">
+                        <div class="footer-text">
+                            <h1 class="footer-title">Brown's British <br>
+                                Language Academy </h1>
+                                <ul class="footer-list">
+                                    <li>
+                                        <span class="footer-lablr">電話番号</span>
+                                          <span class="footer-info">03-3000-1234（9:00-19:00）</span>
+                                         </li>
+                                         <li>
+                                            <span class="footer-lablr">メール</span>
+                                            <span class="footer-info">info@browns-english.example.com</span>
+                                         </li>
+                                         <li>
+                                            <span class="footer-lablr">住所</span>
+                                            <span class="footer-info">愛知県岡崎市康生町330-16</span>
+                                         </li>
+                                </ul>
+                        </div>
+                    </div>
+
+
+                </section>
+        </main>
+
+        <section class="footer-bottom">
+            <div class="footer-bottom-text">
+                <p>実在するサイトではございません</p>
+                <p><small>©︎はるかのふぉりお</small></p>
+            </div>
+        </section>
+
+        <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('js-hamburger');
+    const nav = document.getElementById('js-nav');
+    const overlay = document.getElementById('js-overlay');
+    const links = document.querySelectorAll('.header-menu a');
+
+    // 開閉を切り替える関数
+    function toggleMenu() {
+        hamburger.classList.toggle('is-open');
+        nav.classList.toggle('is-open');
+        overlay.classList.toggle('is-open');
+        // メニューが開いている時は画面をスクロールさせない
+        document.body.classList.toggle('noscroll'); 
+    }
+
+    // ボタンをクリックした時
+    hamburger.addEventListener('click', toggleMenu);
+    // 背景をクリックした時（閉じる）
+    overlay.addEventListener('click', toggleMenu);
+    // リンクをクリックした時（閉じてから移動する）
+    links.forEach(link => {
+        link.addEventListener('click', toggleMenu);
+    });
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // スライダーの設定
+    var splide = new Splide('#slider', {
+        type   : 'loop',        // 最後まで行ったら最初に戻る
+        fixedWidth : '370px',
+        drag   : 'free',        // スワイプ操作を有効にする
+        focus  : 'center',      // アクティブな要素を中央にする（お好みで）
+        perPage: 2,           // 1画面に表示する枚数（PC時）
+        gap    : '30px',        // スライド間の余白
+        autoplay: true,         // 自動再生
+        interval: 3000,         // 3秒ごとに移動
+        speed   : 800,          // 移動スピード（ミリ秒）
+        pauseOnHover: true,     // マウスを乗せたら一時停止
+        
+        // レスポンシブ設定（画面幅による調整）
+        breakpoints: {
+            1024: {
+                perPage: 2,     // タブレット
+            },
+            767: {
+                perPage: 1,     // スマホ（1枚だけ表示）
+            }
+        }
+    });
+
+    splide.mount();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#video-splide', {
+        type   : 'loop',
+        focus  : 'center',    // 中央の動画をメインにする
+        perPage: 3,           // 【PC・基本】3枚表示
+        gap    : '20px',      // 動画の間の隙間
+        autoplay: false,
+        padding: '5%',        // 両端を少し見せる（お好みで）
+        
+        breakpoints: {
+            1024: {
+                perPage: 2,   // タブレットでは2枚
+                padding: '10%',
+            },
+            767: {
+                perPage: 1,   // 【スマホ】1枚表示
+                padding: '15%', // 前後の動画を少し見せて「スライドできる」ことを伝える
+                gap: '10px',
+            }
+        }
+    }).mount();
+});
+
+
+document.querySelectorAll('.faq-q').forEach(button => {
+    button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+
+        // activeクラスの切り替え
+        button.classList.toggle('is-active');
+
+        if (button.classList.contains('is-active')) {
+            // 開く時：中身の高さ(scrollHeight)を計算して設定
+            content.style.height = content.scrollHeight + "px";
+        } else {
+            // 閉じる時
+            content.style.height = "0";
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const bottomBtn = document.querySelector('.header-right');
+    const footer = document.querySelector('.footer');
+
+    // 監視のオプション（フッターが少しでも見えたら実行）
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0 // 0なら1pxでも見えた瞬間に反応
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // フッターが見えたら非表示クラスを追加
+                bottomBtn.classList.add('is-hidden');
+            } else {
+                // フッターが消えたら非表示クラスを削除
+                bottomBtn.classList.remove('is-hidden');
+            }
+        });
+    }, options);
+
+    // フッターの監視を開始
+    if (footer && bottomBtn) {
+        observer.observe(footer);
+    }
+});
+
+
+
+        </script>
+
+    </body>
